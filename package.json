@@ -1,7 +1,7 @@
 {
   "name": "showoff-client",
   "version": "0.0.0",
-  "description": "Small description for showoff-client goes here",
+  "description": "A projects, people, events, and groups thing."
   "private": true,
   "directories": {
     "doc": "doc",
