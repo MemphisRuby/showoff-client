@@ -1,2 +1,8 @@
-<h3>Projects</h3>
+{{#each project in model}}
+  <div class='col-xs-3'>
+    {{#link-to 'projects.project' project}}
+      <h3>{{ project.name }}</h3>
+    {{/link-to}}
+  </div>
+{{/each}}
 {{ outlet }}
